@@ -19,7 +19,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Toast message when Wi-Fi cannot scan for networks -->
-    <string name="wifi_fail_to_scan">Can\'t scan for networks</string>
+    <string name="wifi_fail_to_scan">Non è possibile eseguire la scansione delle reti</string>
     <!-- Do not translate.  Concise terminology for wifi with WEP security -->
     <string name="wifi_security_short_wep">WEP</string>
     <!-- Do not translate.  Concise terminology for wifi with WPA security -->
@@ -34,7 +34,7 @@
     <string name="wifi_security_short_eap">802.1x</string>
 
     <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
-    <string name="wifi_security_none">None</string>
+    <string name="wifi_security_none">Nessuna</string>
 
     <!-- Do not translate.  Terminology for wifi with WEP security -->
     <string name="wifi_security_wep">WEP</string>
@@ -52,29 +52,29 @@
     <string name="wifi_security_passpoint">Passpoint</string>
 
     <!-- Summary for the remembered network. -->
-    <string name="wifi_remembered">Saved</string>
+    <string name="wifi_remembered">Salvato</string>
     <!-- Status for networks disabled for unknown reason -->
-    <string name="wifi_disabled_generic">Disabled</string>
+    <string name="wifi_disabled_generic">Disabilitato</string>
     <!-- Status for networked disabled from a DNS or DHCP failure -->
-    <string name="wifi_disabled_network_failure">IP Configuration Failure</string>
+    <string name="wifi_disabled_network_failure">Configurazione IP fallita</string>
     <!-- Status for networked disabled from a wifi association failure -->
-    <string name="wifi_disabled_wifi_failure">WiFi Connection Failure</string>
+    <string name="wifi_disabled_wifi_failure">Errore di connessione WiFi</string>
     <!-- Status for networks disabled from authentication failure (wrong password
          or certificate). -->
-    <string name="wifi_disabled_password_failure">Authentication problem</string>
+    <string name="wifi_disabled_password_failure">Problema di autenticazione</string>
     <!-- Summary for the remembered network but currently not in range. -->
-    <string name="wifi_not_in_range">Not in range</string>
+    <string name="wifi_not_in_range">Fuori portata</string>
     <!-- Summary for the remembered network but no internet connection was detected. -->
-    <string name="wifi_no_internet">No Internet Access Detected, won\'t automatically reconnect.</string>
+    <string name="wifi_no_internet">Nessun accesso a Internet rilevato, non si riconnetterà automaticamente.</string>
     <!-- Summary for saved networks -->
-    <string name="saved_network">Saved by <xliff:g id="name">%1$s</xliff:g></string>
+    <string name="saved_network">Salvato da <xliff:g id="name">%1$s</xliff:g></string>
 
     <!-- Status message of Wi-Fi when it is connected by a Wi-Fi assistant application. [CHAR LIMIT=NONE] -->
-    <string name="connected_via_wfa">Connected via Wi\u2011Fi assistant</string>
+    <string name="connected_via_wfa">Collegato tramite assistente Wi\u2011Fi </string>
     <!-- Status message of Wi-Fi when it is connected by Passpoint configuration. [CHAR LIMIT=NONE] -->
-    <string name="connected_via_passpoint">Connected via %1$s</string>
+    <string name="connected_via_passpoint">Collegato tramite %1$s</string>
     <!-- Status message of Wi-Fi when network has matching passpoint credentials. [CHAR LIMIT=NONE] -->
-    <string name="available_via_passpoint">Available via %1$s</string>
+    <string name="available_via_passpoint">Disponibile tramite %1$s</string>
     <!-- Package name for Settings app-->
     <string name="settings_package" translatable="false">com.android.settings</string>
     <!-- Package name for Certinstaller app-->
